@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <project version="5">
-	<proj ListSeperator=";" DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" ScheduleDisplay="automatic" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="" uimode="normal" lockwbs="yes" CalendarUID="0" NavigatorCodes="long" projUID="R026R331RCPA">
+	<proj ListSeperator=";" DefaultDurationUnits="days" DefaultWorkUnits="hours" HoursPerDay="8" HoursPerWeek="40" DaysPerMonth="21.75" ScheduleDisplay="automatic" DefaultStartTime="08:00" DefaultFinishTime="17:00" NADate="" uimode="normal" lockwbs="yes" CalendarUID="0" NavigatorCodes="long" projUID="R026R318RCPA">
 		<calendar name="Standard" uid="0" baseuid="-1">
 			<normalhours s1="08:00" f1="12:00" s2="13:00" f2="17:00"/>
 			<dow day="sun" working="no"/>
@@ -151,15 +151,7 @@
 		<valuelist name="Outline Code10" restrict="no" append="yes" autosuffix="no">
 		</valuelist>
 		<groupspec>
-			<outline current="4">
-				<collapse uid="682"/>
-				<collapse uid="681"/>
-				<collapse uid="672"/>
-				<collapse uid="663"/>
-				<collapse uid="654"/>
-				<collapse uid="645"/>
-				<collapse uid="636"/>
-			</outline>
+			<outline current="587"/>
 		</groupspec>
 		<tasks>
 			<task ID="0" UniqueID="0" OutlineLevel="0" WBS="0" Name="ITERATIVO" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" Summary="yes"/>
@@ -320,179 +312,166 @@
 			<task ID="155" UniqueID="159" OutlineLevel="6" WBS="1.1.2.4.2.1" Name="Probar Conexion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="156" UniqueID="158" OutlineLevel="6" WBS="1.1.2.4.2.2" Name="Probar las clases desde el main" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 			<task ID="157" UniqueID="157" OutlineLevel="6" WBS="1.1.2.4.2.3" Name="Consultas de la base de datos" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="158" UniqueID="504" OutlineLevel="3" WBS="1.1.3" Name="ENTREGA" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="159" UniqueID="506" OutlineLevel="4" WBS="1.1.3.1" Name="Entregado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="160" UniqueID="507" OutlineLevel="5" WBS="1.1.3.1.1" Name="Diagrama de clases Habitacion, Tipo Habitacion, Huesped, Conexi&#243;n y Reserva Esquema de base de datos de las entidades" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="161" UniqueID="505" OutlineLevel="4" WBS="1.1.3.2" Name="Pendiente" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="162" UniqueID="508" OutlineLevel="5" WBS="1.1.3.2.1" Name="Clases Data, Vistas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="163" UniqueID="2" OutlineLevel="2" WBS="1.2" Name="2-ITERACION" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="164" UniqueID="509" OutlineLevel="3" WBS="1.2.1" Name="CAPTURA REQUISITOS" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="165" UniqueID="512" OutlineLevel="4" WBS="1.2.1.1" Name="Admin" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="166" UniqueID="513" OutlineLevel="5" WBS="1.2.1.1.1" Name="ABMC habitaci&#243;n, tipoHabitacion, usuario, hu&#233;sped, reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="167" UniqueID="514" OutlineLevel="4" WBS="1.2.1.2" Name="clases DATA" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="168" UniqueID="510" OutlineLevel="3" WBS="1.2.2" Name="DESARROLLO" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="169" UniqueID="519" OutlineLevel="4" WBS="1.2.2.1" Name="Analisis (atributos)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="170" UniqueID="526" OutlineLevel="5" WBS="1.2.2.1.1" Name="Habitaci&#243;n Data (Habitacion habitacion)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="171" UniqueID="527" OutlineLevel="5" WBS="1.2.2.1.2" Name="tipo Habitaci&#243;n Data (TipoHabitacion tipoHabitacion)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="172" UniqueID="528" OutlineLevel="5" WBS="1.2.2.1.3" Name="Huesped Data (Huesped huesped)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="173" UniqueID="529" OutlineLevel="5" WBS="1.2.2.1.4" Name="Reserva Data (Reserva reserva)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="174" UniqueID="530" OutlineLevel="5" WBS="1.2.2.1.5" Name="Usuario Data (Usuario usuario)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="175" UniqueID="517" OutlineLevel="4" WBS="1.2.2.2" Name="Dise&#241;o" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="176" UniqueID="525" OutlineLevel="5" WBS="1.2.2.2.1" Name="Diagrama de Clases Detallado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="177" UniqueID="524" OutlineLevel="6" WBS="1.2.2.2.1.1" Name="Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="178" UniqueID="531" OutlineLevel="7" WBS="1.2.2.2.1.1.1" Name="ABMC de habitaci&#243;n." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="179" UniqueID="523" OutlineLevel="6" WBS="1.2.2.2.1.2" Name="tipo Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="180" UniqueID="532" OutlineLevel="7" WBS="1.2.2.2.1.2.1" Name="ABMC de tipo de habitaci&#243;n" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="181" UniqueID="522" OutlineLevel="6" WBS="1.2.2.2.1.3" Name="Huesped Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="182" UniqueID="533" OutlineLevel="7" WBS="1.2.2.2.1.3.1" Name="Alta de Hu&#233;sped, Baja de Hu&#233;sped, Modificaci&#243;n de Hu&#233;sped y Consulta de los hu&#233;spedes" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="183" UniqueID="521" OutlineLevel="6" WBS="1.2.2.2.1.4" Name="Reserva Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="184" UniqueID="534" OutlineLevel="7" WBS="1.2.2.2.1.4.1" Name="Alta de Reserva, Baja de Reserva, Modificaci&#243;n de Reserva,Consulta de reservas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="185" UniqueID="520" OutlineLevel="6" WBS="1.2.2.2.1.5" Name="Usuario Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="186" UniqueID="535" OutlineLevel="7" WBS="1.2.2.2.1.5.1" Name="Alta de Usuario, Baja de Usuario, Modificaci&#243;n de Usuario,Consulta de Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="187" UniqueID="516" OutlineLevel="4" WBS="1.2.2.3" Name="Implementacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="188" UniqueID="541" OutlineLevel="5" WBS="1.2.2.3.1" Name="Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="189" UniqueID="547" OutlineLevel="6" WBS="1.2.2.3.1.1" Name="void altaHabitaci&#243;n(Habitacion habitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="190" UniqueID="546" OutlineLevel="6" WBS="1.2.2.3.1.2" Name="void bajaHabitaci&#243;n(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="191" UniqueID="545" OutlineLevel="6" WBS="1.2.2.3.1.3" Name="void modificarHabitacion(Habitacion habitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="192" UniqueID="544" OutlineLevel="6" WBS="1.2.2.3.1.4" Name="Habitacion consultarHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="193" UniqueID="543" OutlineLevel="6" WBS="1.2.2.3.1.5" Name="ArrayList&lt;Habitacion&gt; listarHabitaciones(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="194" UniqueID="542" OutlineLevel="6" WBS="1.2.2.3.1.6" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="195" UniqueID="540" OutlineLevel="5" WBS="1.2.2.3.2" Name="Tipo Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="196" UniqueID="554" OutlineLevel="6" WBS="1.2.2.3.2.1" Name="void altaTipoHabitacion(TipoHabitacion tipoHabitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="197" UniqueID="553" OutlineLevel="6" WBS="1.2.2.3.2.2" Name="void bajaTipoHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="198" UniqueID="552" OutlineLevel="6" WBS="1.2.2.3.2.3" Name="void modificarTipoHabitacion(TipoHabitacion tipoHabitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="199" UniqueID="551" OutlineLevel="6" WBS="1.2.2.3.2.4" Name="TipoHabitacion consultarTipoHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="200" UniqueID="550" OutlineLevel="6" WBS="1.2.2.3.2.5" Name="ArrayList &lt;TipoHabitacion&gt; listarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="201" UniqueID="549" OutlineLevel="6" WBS="1.2.2.3.2.6" Name="void cambiarPrecio(String tipo){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="202" UniqueID="548" OutlineLevel="6" WBS="1.2.2.3.2.7" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="203" UniqueID="539" OutlineLevel="5" WBS="1.2.2.3.3" Name=" Hu&#233;sped Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="204" UniqueID="560" OutlineLevel="6" WBS="1.2.2.3.3.1" Name="void altaHuesped(Huesped huesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="205" UniqueID="559" OutlineLevel="6" WBS="1.2.2.3.3.2" Name="void bajaHuesped(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="206" UniqueID="558" OutlineLevel="6" WBS="1.2.2.3.3.3" Name="void modificarHuesped(Huesped huesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="207" UniqueID="557" OutlineLevel="6" WBS="1.2.2.3.3.4" Name="Huesped consultaHuesped(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="208" UniqueID="556" OutlineLevel="6" WBS="1.2.2.3.3.5" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="209" UniqueID="538" OutlineLevel="5" WBS="1.2.2.3.4" Name="Reserva Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="210" UniqueID="568" OutlineLevel="6" WBS="1.2.2.3.4.1" Name="void altaReserva(Reserva reserva){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="211" UniqueID="567" OutlineLevel="6" WBS="1.2.2.3.4.2" Name="void bajaReserva(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="212" UniqueID="566" OutlineLevel="6" WBS="1.2.2.3.4.3" Name="void modificarReserva(Reserva reserva){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="213" UniqueID="565" OutlineLevel="6" WBS="1.2.2.3.4.4" Name="Reserva consultaReserva(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="214" UniqueID="564" OutlineLevel="6" WBS="1.2.2.3.4.5" Name="void calcularMontoAPagar(int tipoHabitacion, int cantidadPersonas){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="215" UniqueID="563" OutlineLevel="6" WBS="1.2.2.3.4.6" Name="Reserva buscarReservaPorHuesped(int idHuesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="216" UniqueID="562" OutlineLevel="6" WBS="1.2.2.3.4.7" Name="void cambiarEstadoReserva(int idReserva, boolean estado){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="217" UniqueID="561" OutlineLevel="6" WBS="1.2.2.3.4.8" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="218" UniqueID="537" OutlineLevel="5" WBS="1.2.2.3.5" Name="Usuario Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="219" UniqueID="573" OutlineLevel="6" WBS="1.2.2.3.5.1" Name="void altaUsuario(Usuario usuario){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="220" UniqueID="572" OutlineLevel="6" WBS="1.2.2.3.5.2" Name="void bajaUsuario(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="221" UniqueID="571" OutlineLevel="6" WBS="1.2.2.3.5.3" Name="void modificarUsuario(Usuario usuario){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="222" UniqueID="570" OutlineLevel="6" WBS="1.2.2.3.5.4" Name="Usuario consultarUsuario(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="223" UniqueID="574" OutlineLevel="6" WBS="1.2.2.3.5.5" Name="void recuperarConstrase&#241;a(String email){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="224" UniqueID="575" OutlineLevel="6" WBS="1.2.2.3.5.6" Name="void autenticacionUsuario(Usuario usuario){}{}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="225" UniqueID="569" OutlineLevel="6" WBS="1.2.2.3.5.7" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="226" UniqueID="515" OutlineLevel="4" WBS="1.2.2.4" Name="Testing" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="227" UniqueID="576" OutlineLevel="5" WBS="1.2.2.4.1" Name="Caja Blanca (Debug)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="228" UniqueID="579" OutlineLevel="6" WBS="1.2.2.4.1.1" Name="Prueba de consultas de ABMC" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="229" UniqueID="577" OutlineLevel="5" WBS="1.2.2.4.2" Name="Caja Negra (Validaci&#243;n)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="230" UniqueID="580" OutlineLevel="6" WBS="1.2.2.4.2.1" Name="Realizar pruebas de entradas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="231" UniqueID="578" OutlineLevel="5" WBS="1.2.2.4.3" Name="Testing integrado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="232" UniqueID="581" OutlineLevel="6" WBS="1.2.2.4.3.1" Name="versi&#243;n anterior + versi&#243;n actual." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="233" UniqueID="511" OutlineLevel="3" WBS="1.2.3" Name="ENTREGA" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="234" UniqueID="583" OutlineLevel="4" WBS="1.2.3.1" Name="Entregado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="235" UniqueID="584" OutlineLevel="5" WBS="1.2.3.1.1" Name="Clases Data" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="236" UniqueID="582" OutlineLevel="4" WBS="1.2.3.2" Name="Pendiente" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="237" UniqueID="585" OutlineLevel="5" WBS="1.2.3.2.1" Name="Vistas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="238" UniqueID="3" OutlineLevel="2" WBS="1.3" Name="3-ITERACION" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="239" UniqueID="588" OutlineLevel="3" WBS="1.3.1" Name="CAPTURA REQUISITOS" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="240" UniqueID="626" OutlineLevel="4" WBS="1.3.1.1" Name="Metodos" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="241" UniqueID="627" OutlineLevel="5" WBS="1.3.1.1.1" Name="Metodos de cada Vista" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="242" UniqueID="622" OutlineLevel="4" WBS="1.3.1.2" Name="VIstas" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="243" UniqueID="621" OutlineLevel="5" WBS="1.3.1.2.1" Name="Reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="244" UniqueID="620" OutlineLevel="5" WBS="1.3.1.2.2" Name="TipoHabitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="245" UniqueID="619" OutlineLevel="5" WBS="1.3.1.2.3" Name="Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="246" UniqueID="618" OutlineLevel="5" WBS="1.3.1.2.4" Name="Husped" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="247" UniqueID="624" OutlineLevel="5" WBS="1.3.1.2.5" Name="Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="248" UniqueID="623" OutlineLevel="5" WBS="1.3.1.2.6" Name="Loggin" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="249" UniqueID="587" OutlineLevel="3" WBS="1.3.2" Name="DESARROLLO" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="250" UniqueID="592" OutlineLevel="4" WBS="1.3.2.1" Name="Analisis" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="251" UniqueID="628" OutlineLevel="5" WBS="1.3.2.1.1" Name="Se completo en la Iteracion Anterior" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="252" UniqueID="591" OutlineLevel="4" WBS="1.3.2.2" Name="Dise&#241;o" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="253" UniqueID="629" OutlineLevel="5" WBS="1.3.2.2.1" Name="Vista (estatico)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="254" UniqueID="635" OutlineLevel="6" WBS="1.3.2.2.1.1" Name="Tipo Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="255" UniqueID="634" OutlineLevel="6" WBS="1.3.2.2.1.2" Name="Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="256" UniqueID="633" OutlineLevel="6" WBS="1.3.2.2.1.3" Name="Menu Principal" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="257" UniqueID="632" OutlineLevel="6" WBS="1.3.2.2.1.4" Name="Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="258" UniqueID="631" OutlineLevel="6" WBS="1.3.2.2.1.5" Name="Loggin" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="259" UniqueID="630" OutlineLevel="6" WBS="1.3.2.2.1.6" Name="Reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="260" UniqueID="590" OutlineLevel="4" WBS="1.3.2.3" Name="Implementacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="261" UniqueID="682" OutlineLevel="5" WBS="1.3.2.3.1" Name="Menu principal" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="262" UniqueID="693" OutlineLevel="6" WBS="1.3.2.3.1.1" Name="void vistaUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="263" UniqueID="692" OutlineLevel="6" WBS="1.3.2.3.1.2" Name="void vistaReserva(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="264" UniqueID="691" OutlineLevel="6" WBS="1.3.2.3.1.3" Name="void vistaHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="265" UniqueID="690" OutlineLevel="6" WBS="1.3.2.3.1.4" Name="void vistaHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="266" UniqueID="689" OutlineLevel="6" WBS="1.3.2.3.1.5" Name="void vistaTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="267" UniqueID="681" OutlineLevel="5" WBS="1.3.2.3.2" Name="Loggin" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="268" UniqueID="688" OutlineLevel="6" WBS="1.3.2.3.2.1" Name="void ingresarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="269" UniqueID="687" OutlineLevel="6" WBS="1.3.2.3.2.2" Name="void registrarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="270" UniqueID="686" OutlineLevel="6" WBS="1.3.2.3.2.3" Name="void recuperarContrase&#241;a(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="271" UniqueID="685" OutlineLevel="6" WBS="1.3.2.3.2.4" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="272" UniqueID="684" OutlineLevel="6" WBS="1.3.2.3.2.5" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="273" UniqueID="683" OutlineLevel="6" WBS="1.3.2.3.2.6" Name="Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="274" UniqueID="672" OutlineLevel="5" WBS="1.3.2.3.3" Name="Usuario" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="275" UniqueID="680" OutlineLevel="6" WBS="1.3.2.3.3.1" Name="void consultarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="276" UniqueID="679" OutlineLevel="6" WBS="1.3.2.3.3.2" Name="void hacerUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="277" UniqueID="678" OutlineLevel="6" WBS="1.3.2.3.3.3" Name="void modificarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="278" UniqueID="677" OutlineLevel="6" WBS="1.3.2.3.3.4" Name="void eliminarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="279" UniqueID="676" OutlineLevel="6" WBS="1.3.2.3.3.5" Name="void limpiarFormulario()" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="280" UniqueID="675" OutlineLevel="6" WBS="1.3.2.3.3.6" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="281" UniqueID="674" OutlineLevel="6" WBS="1.3.2.3.3.7" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="282" UniqueID="673" OutlineLevel="6" WBS="1.3.2.3.3.8" Name="Excepciones (try/catch)." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="283" UniqueID="663" OutlineLevel="5" WBS="1.3.2.3.4" Name="Huesped" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="284" UniqueID="671" OutlineLevel="6" WBS="1.3.2.3.4.1" Name="void consultarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="285" UniqueID="670" OutlineLevel="6" WBS="1.3.2.3.4.2" Name="void guardarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="286" UniqueID="669" OutlineLevel="6" WBS="1.3.2.3.4.3" Name="void modificarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="287" UniqueID="668" OutlineLevel="6" WBS="1.3.2.3.4.4" Name="void eliminarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="288" UniqueID="667" OutlineLevel="6" WBS="1.3.2.3.4.5" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="289" UniqueID="666" OutlineLevel="6" WBS="1.3.2.3.4.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="290" UniqueID="665" OutlineLevel="6" WBS="1.3.2.3.4.7" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="291" UniqueID="664" OutlineLevel="6" WBS="1.3.2.3.4.8" Name="Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="292" UniqueID="654" OutlineLevel="5" WBS="1.3.2.3.5" Name="Reserva" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="293" UniqueID="662" OutlineLevel="6" WBS="1.3.2.3.5.1" Name="void listarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="294" UniqueID="661" OutlineLevel="6" WBS="1.3.2.3.5.2" Name="void buscarReservaPorHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="295" UniqueID="660" OutlineLevel="6" WBS="1.3.2.3.5.3" Name="void guardarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="296" UniqueID="659" OutlineLevel="6" WBS="1.3.2.3.5.4" Name="void modificarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="297" UniqueID="658" OutlineLevel="6" WBS="1.3.2.3.5.5" Name="void eliminarReserva(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="298" UniqueID="657" OutlineLevel="6" WBS="1.3.2.3.5.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="299" UniqueID="656" OutlineLevel="6" WBS="1.3.2.3.5.7" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="300" UniqueID="655" OutlineLevel="6" WBS="1.3.2.3.5.8" Name="ValidacionesExcepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="301" UniqueID="645" OutlineLevel="5" WBS="1.3.2.3.6" Name="Tipo habitacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="302" UniqueID="653" OutlineLevel="6" WBS="1.3.2.3.6.1" Name="Validaciones: Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="303" UniqueID="652" OutlineLevel="6" WBS="1.3.2.3.6.2" Name="void consultarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="304" UniqueID="651" OutlineLevel="6" WBS="1.3.2.3.6.3" Name="void guardarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="305" UniqueID="650" OutlineLevel="6" WBS="1.3.2.3.6.4" Name="void modificarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="306" UniqueID="649" OutlineLevel="6" WBS="1.3.2.3.6.5" Name="void eliminarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="307" UniqueID="648" OutlineLevel="6" WBS="1.3.2.3.6.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="308" UniqueID="647" OutlineLevel="6" WBS="1.3.2.3.6.7" Name="void listarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="309" UniqueID="646" OutlineLevel="6" WBS="1.3.2.3.6.8" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="310" UniqueID="636" OutlineLevel="5" WBS="1.3.2.3.7" Name="Vista Habitacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="311" UniqueID="644" OutlineLevel="6" WBS="1.3.2.3.7.1" Name="Validaciones: Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="312" UniqueID="643" OutlineLevel="6" WBS="1.3.2.3.7.2" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="313" UniqueID="642" OutlineLevel="6" WBS="1.3.2.3.7.3" Name="void listarHabitaciones(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="314" UniqueID="641" OutlineLevel="6" WBS="1.3.2.3.7.4" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="315" UniqueID="640" OutlineLevel="6" WBS="1.3.2.3.7.5" Name="void eliminarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="316" UniqueID="639" OutlineLevel="6" WBS="1.3.2.3.7.6" Name="void modificarHabitacion(){}}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="317" UniqueID="638" OutlineLevel="6" WBS="1.3.2.3.7.7" Name="void guardarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="318" UniqueID="637" OutlineLevel="6" WBS="1.3.2.3.7.8" Name="void consultarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="319" UniqueID="589" OutlineLevel="4" WBS="1.3.2.4" Name="Testing" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="320" UniqueID="696" OutlineLevel="5" WBS="1.3.2.4.1" Name="Integrado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="321" UniqueID="697" OutlineLevel="6" WBS="1.3.2.4.1.1" Name="Version anterior + version actual" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="322" UniqueID="695" OutlineLevel="5" WBS="1.3.2.4.2" Name="Caja Negra" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="323" UniqueID="700" OutlineLevel="6" WBS="1.3.2.4.2.1" Name="Probar vistas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="324" UniqueID="699" OutlineLevel="6" WBS="1.3.2.4.2.2" Name="Pruebas de entrada" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="325" UniqueID="698" OutlineLevel="6" WBS="1.3.2.4.2.3" Name="Probar funcionalidad del software" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="326" UniqueID="694" OutlineLevel="5" WBS="1.3.2.4.3" Name="Caja Blanca" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="327" UniqueID="702" OutlineLevel="6" WBS="1.3.2.4.3.1" Name="Verificar logicade codigo" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="328" UniqueID="701" OutlineLevel="6" WBS="1.3.2.4.3.2" Name="Revisar codigo linea por linea" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
-			<task ID="329" UniqueID="586" OutlineLevel="3" WBS="1.3.3" Name="ENTREGA" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
-			<task ID="330" UniqueID="703" OutlineLevel="4" WBS="1.3.3.1" Name="Sistema Funcional" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="158" UniqueID="2" OutlineLevel="2" WBS="1.2" Name="2-ITERACION" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="159" UniqueID="509" OutlineLevel="3" WBS="1.2.1" Name="CAPTURA REQUISITOS" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="160" UniqueID="512" OutlineLevel="4" WBS="1.2.1.1" Name="Admin" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="161" UniqueID="513" OutlineLevel="5" WBS="1.2.1.1.1" Name="ABMC habitaci&#243;n, tipoHabitacion, usuario, hu&#233;sped, reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="162" UniqueID="510" OutlineLevel="3" WBS="1.2.2" Name="DESARROLLO" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="163" UniqueID="519" OutlineLevel="4" WBS="1.2.2.1" Name="Analisis (atributos)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="164" UniqueID="526" OutlineLevel="5" WBS="1.2.2.1.1" Name="Habitaci&#243;n Data (Habitacion habitacion)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="165" UniqueID="527" OutlineLevel="5" WBS="1.2.2.1.2" Name="tipo Habitaci&#243;n Data (TipoHabitacion tipoHabitacion)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="166" UniqueID="528" OutlineLevel="5" WBS="1.2.2.1.3" Name="Huesped Data (Huesped huesped)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="167" UniqueID="529" OutlineLevel="5" WBS="1.2.2.1.4" Name="Reserva Data (Reserva reserva)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="168" UniqueID="530" OutlineLevel="5" WBS="1.2.2.1.5" Name="Usuario Data (Usuario usuario)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="169" UniqueID="517" OutlineLevel="4" WBS="1.2.2.2" Name="Dise&#241;o" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="170" UniqueID="525" OutlineLevel="5" WBS="1.2.2.2.1" Name="Diagrama de Clases Detallado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="171" UniqueID="524" OutlineLevel="6" WBS="1.2.2.2.1.1" Name="Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="172" UniqueID="531" OutlineLevel="7" WBS="1.2.2.2.1.1.1" Name="ABMC de habitaci&#243;n." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="173" UniqueID="523" OutlineLevel="6" WBS="1.2.2.2.1.2" Name="tipo Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="174" UniqueID="532" OutlineLevel="7" WBS="1.2.2.2.1.2.1" Name="ABMC de tipo de habitaci&#243;n" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="175" UniqueID="522" OutlineLevel="6" WBS="1.2.2.2.1.3" Name="Huesped Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="176" UniqueID="533" OutlineLevel="7" WBS="1.2.2.2.1.3.1" Name="Alta de Hu&#233;sped, Baja de Hu&#233;sped, Modificaci&#243;n de Hu&#233;sped y Consulta de los hu&#233;spedes" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="177" UniqueID="521" OutlineLevel="6" WBS="1.2.2.2.1.4" Name="Reserva Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="178" UniqueID="534" OutlineLevel="7" WBS="1.2.2.2.1.4.1" Name="Alta de Reserva, Baja de Reserva, Modificaci&#243;n de Reserva,Consulta de reservas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="179" UniqueID="520" OutlineLevel="6" WBS="1.2.2.2.1.5" Name="Usuario Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="180" UniqueID="535" OutlineLevel="7" WBS="1.2.2.2.1.5.1" Name="Alta de Usuario, Baja de Usuario, Modificaci&#243;n de Usuario,Consulta de Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="181" UniqueID="516" OutlineLevel="4" WBS="1.2.2.3" Name="Implementacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="182" UniqueID="541" OutlineLevel="5" WBS="1.2.2.3.1" Name="Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="183" UniqueID="547" OutlineLevel="6" WBS="1.2.2.3.1.1" Name="void altaHabitaci&#243;n(Habitacion habitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="184" UniqueID="546" OutlineLevel="6" WBS="1.2.2.3.1.2" Name="void bajaHabitaci&#243;n(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="185" UniqueID="545" OutlineLevel="6" WBS="1.2.2.3.1.3" Name="void modificarHabitacion(Habitacion habitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="186" UniqueID="544" OutlineLevel="6" WBS="1.2.2.3.1.4" Name="Habitacion consultarHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="187" UniqueID="543" OutlineLevel="6" WBS="1.2.2.3.1.5" Name="ArrayList&lt;Habitacion&gt; listarHabitaciones(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="188" UniqueID="542" OutlineLevel="6" WBS="1.2.2.3.1.6" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="189" UniqueID="540" OutlineLevel="5" WBS="1.2.2.3.2" Name="Tipo Habitaci&#243;n Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="190" UniqueID="554" OutlineLevel="6" WBS="1.2.2.3.2.1" Name="void altaTipoHabitacion(TipoHabitacion tipoHabitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="191" UniqueID="553" OutlineLevel="6" WBS="1.2.2.3.2.2" Name="void bajaTipoHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="192" UniqueID="552" OutlineLevel="6" WBS="1.2.2.3.2.3" Name="void modificarTipoHabitacion(TipoHabitacion tipoHabitacion){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="193" UniqueID="551" OutlineLevel="6" WBS="1.2.2.3.2.4" Name="TipoHabitacion consultarTipoHabitacion(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="194" UniqueID="550" OutlineLevel="6" WBS="1.2.2.3.2.5" Name="ArrayList &lt;TipoHabitacion&gt; listarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="195" UniqueID="549" OutlineLevel="6" WBS="1.2.2.3.2.6" Name="void cambiarPrecio(String tipo){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="196" UniqueID="548" OutlineLevel="6" WBS="1.2.2.3.2.7" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="197" UniqueID="539" OutlineLevel="5" WBS="1.2.2.3.3" Name=" Hu&#233;sped Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="198" UniqueID="560" OutlineLevel="6" WBS="1.2.2.3.3.1" Name="void altaHuesped(Huesped huesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="199" UniqueID="559" OutlineLevel="6" WBS="1.2.2.3.3.2" Name="void bajaHuesped(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="200" UniqueID="558" OutlineLevel="6" WBS="1.2.2.3.3.3" Name="void modificarHuesped(Huesped huesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="201" UniqueID="557" OutlineLevel="6" WBS="1.2.2.3.3.4" Name="Huesped consultaHuesped(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="202" UniqueID="556" OutlineLevel="6" WBS="1.2.2.3.3.5" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="203" UniqueID="538" OutlineLevel="5" WBS="1.2.2.3.4" Name="Reserva Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="204" UniqueID="568" OutlineLevel="6" WBS="1.2.2.3.4.1" Name="void altaReserva(Reserva reserva){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="205" UniqueID="567" OutlineLevel="6" WBS="1.2.2.3.4.2" Name="void bajaReserva(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="206" UniqueID="566" OutlineLevel="6" WBS="1.2.2.3.4.3" Name="void modificarReserva(Reserva reserva){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="207" UniqueID="565" OutlineLevel="6" WBS="1.2.2.3.4.4" Name="Reserva consultaReserva(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="208" UniqueID="564" OutlineLevel="6" WBS="1.2.2.3.4.5" Name="void calcularMontoAPagar(int tipoHabitacion, int cantidadPersonas){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="209" UniqueID="563" OutlineLevel="6" WBS="1.2.2.3.4.6" Name="Reserva buscarReservaPorHuesped(int idHuesped){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="210" UniqueID="562" OutlineLevel="6" WBS="1.2.2.3.4.7" Name="void cambiarEstadoReserva(int idReserva, boolean estado){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="211" UniqueID="561" OutlineLevel="6" WBS="1.2.2.3.4.8" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="212" UniqueID="537" OutlineLevel="5" WBS="1.2.2.3.5" Name="Usuario Data" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="213" UniqueID="573" OutlineLevel="6" WBS="1.2.2.3.5.1" Name="void altaUsuario(Usuario usuario){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="214" UniqueID="572" OutlineLevel="6" WBS="1.2.2.3.5.2" Name="void bajaUsuario(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="215" UniqueID="571" OutlineLevel="6" WBS="1.2.2.3.5.3" Name="void modificarUsuario(Usuario usuario){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="216" UniqueID="570" OutlineLevel="6" WBS="1.2.2.3.5.4" Name="Usuario consultarUsuario(int id){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="217" UniqueID="574" OutlineLevel="6" WBS="1.2.2.3.5.5" Name="void recuperarConstrase&#241;a(String email){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="218" UniqueID="575" OutlineLevel="6" WBS="1.2.2.3.5.6" Name="void autenticacionUsuario(Usuario usuario){}{}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="219" UniqueID="569" OutlineLevel="6" WBS="1.2.2.3.5.7" Name="Validaciones: excepci&#243;n (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="220" UniqueID="515" OutlineLevel="4" WBS="1.2.2.4" Name="Testing" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="221" UniqueID="576" OutlineLevel="5" WBS="1.2.2.4.1" Name="Caja Blanca (Debug)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="222" UniqueID="579" OutlineLevel="6" WBS="1.2.2.4.1.1" Name="Prueba de consultas de ABMC" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="223" UniqueID="577" OutlineLevel="5" WBS="1.2.2.4.2" Name="Caja Negra (Validaci&#243;n)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="224" UniqueID="580" OutlineLevel="6" WBS="1.2.2.4.2.1" Name="Realizar pruebas de entradas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="225" UniqueID="578" OutlineLevel="5" WBS="1.2.2.4.3" Name="Testing integrado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="226" UniqueID="581" OutlineLevel="6" WBS="1.2.2.4.3.1" Name="versi&#243;n anterior + versi&#243;n actual." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="227" UniqueID="3" OutlineLevel="2" WBS="1.3" Name="3-ITERACION" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="228" UniqueID="588" OutlineLevel="3" WBS="1.3.1" Name="CAPTURA REQUISITOS" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="229" UniqueID="626" OutlineLevel="4" WBS="1.3.1.1" Name="Metodos" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="230" UniqueID="627" OutlineLevel="5" WBS="1.3.1.1.1" Name="Metodos de cada Vista" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="231" UniqueID="622" OutlineLevel="4" WBS="1.3.1.2" Name="VIstas" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="232" UniqueID="621" OutlineLevel="5" WBS="1.3.1.2.1" Name="Reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="233" UniqueID="620" OutlineLevel="5" WBS="1.3.1.2.2" Name="TipoHabitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="234" UniqueID="619" OutlineLevel="5" WBS="1.3.1.2.3" Name="Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="235" UniqueID="618" OutlineLevel="5" WBS="1.3.1.2.4" Name="Husped" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="236" UniqueID="624" OutlineLevel="5" WBS="1.3.1.2.5" Name="Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="237" UniqueID="623" OutlineLevel="5" WBS="1.3.1.2.6" Name="Loggin" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="238" UniqueID="587" OutlineLevel="3" WBS="1.3.2" Name="DESARROLLO" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="239" UniqueID="592" OutlineLevel="4" WBS="1.3.2.1" Name="Analisis" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="240" UniqueID="628" OutlineLevel="5" WBS="1.3.2.1.1" Name="Se completo en la Iteracion Anterior" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="241" UniqueID="591" OutlineLevel="4" WBS="1.3.2.2" Name="Dise&#241;o" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="242" UniqueID="629" OutlineLevel="5" WBS="1.3.2.2.1" Name="Vista (estatico)" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="243" UniqueID="635" OutlineLevel="6" WBS="1.3.2.2.1.1" Name="Tipo Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="244" UniqueID="634" OutlineLevel="6" WBS="1.3.2.2.1.2" Name="Habitacion" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="245" UniqueID="633" OutlineLevel="6" WBS="1.3.2.2.1.3" Name="Menu Principal" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="246" UniqueID="632" OutlineLevel="6" WBS="1.3.2.2.1.4" Name="Usuario" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="247" UniqueID="631" OutlineLevel="6" WBS="1.3.2.2.1.5" Name="Loggin" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="248" UniqueID="630" OutlineLevel="6" WBS="1.3.2.2.1.6" Name="Reserva" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="249" UniqueID="590" OutlineLevel="4" WBS="1.3.2.3" Name="Implementacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="250" UniqueID="682" OutlineLevel="5" WBS="1.3.2.3.1" Name="Menu principal" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="251" UniqueID="693" OutlineLevel="6" WBS="1.3.2.3.1.1" Name="void vistaUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="252" UniqueID="692" OutlineLevel="6" WBS="1.3.2.3.1.2" Name="void vistaReserva(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="253" UniqueID="691" OutlineLevel="6" WBS="1.3.2.3.1.3" Name="void vistaHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="254" UniqueID="690" OutlineLevel="6" WBS="1.3.2.3.1.4" Name="void vistaHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="255" UniqueID="689" OutlineLevel="6" WBS="1.3.2.3.1.5" Name="void vistaTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="256" UniqueID="681" OutlineLevel="5" WBS="1.3.2.3.2" Name="Loggin" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="257" UniqueID="688" OutlineLevel="6" WBS="1.3.2.3.2.1" Name="void ingresarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="258" UniqueID="687" OutlineLevel="6" WBS="1.3.2.3.2.2" Name="void registrarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="259" UniqueID="686" OutlineLevel="6" WBS="1.3.2.3.2.3" Name="void recuperarContrase&#241;a(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="260" UniqueID="685" OutlineLevel="6" WBS="1.3.2.3.2.4" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="261" UniqueID="684" OutlineLevel="6" WBS="1.3.2.3.2.5" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="262" UniqueID="683" OutlineLevel="6" WBS="1.3.2.3.2.6" Name="Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="263" UniqueID="672" OutlineLevel="5" WBS="1.3.2.3.3" Name="Usuario" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="264" UniqueID="680" OutlineLevel="6" WBS="1.3.2.3.3.1" Name="void consultarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="265" UniqueID="679" OutlineLevel="6" WBS="1.3.2.3.3.2" Name="void hacerUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="266" UniqueID="678" OutlineLevel="6" WBS="1.3.2.3.3.3" Name="void modificarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="267" UniqueID="677" OutlineLevel="6" WBS="1.3.2.3.3.4" Name="void eliminarUsuario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="268" UniqueID="676" OutlineLevel="6" WBS="1.3.2.3.3.5" Name="void limpiarFormulario()" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="269" UniqueID="675" OutlineLevel="6" WBS="1.3.2.3.3.6" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="270" UniqueID="674" OutlineLevel="6" WBS="1.3.2.3.3.7" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="271" UniqueID="673" OutlineLevel="6" WBS="1.3.2.3.3.8" Name="Excepciones (try/catch)." Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="272" UniqueID="663" OutlineLevel="5" WBS="1.3.2.3.4" Name="Huesped" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="273" UniqueID="671" OutlineLevel="6" WBS="1.3.2.3.4.1" Name="void consultarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="274" UniqueID="670" OutlineLevel="6" WBS="1.3.2.3.4.2" Name="void guardarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="275" UniqueID="669" OutlineLevel="6" WBS="1.3.2.3.4.3" Name="void modificarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="276" UniqueID="668" OutlineLevel="6" WBS="1.3.2.3.4.4" Name="void eliminarHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="277" UniqueID="667" OutlineLevel="6" WBS="1.3.2.3.4.5" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="278" UniqueID="666" OutlineLevel="6" WBS="1.3.2.3.4.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="279" UniqueID="665" OutlineLevel="6" WBS="1.3.2.3.4.7" Name="Validaciones" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="280" UniqueID="664" OutlineLevel="6" WBS="1.3.2.3.4.8" Name="Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="281" UniqueID="654" OutlineLevel="5" WBS="1.3.2.3.5" Name="Reserva" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="282" UniqueID="662" OutlineLevel="6" WBS="1.3.2.3.5.1" Name="void listarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="283" UniqueID="661" OutlineLevel="6" WBS="1.3.2.3.5.2" Name="void buscarReservaPorHuesped(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="284" UniqueID="660" OutlineLevel="6" WBS="1.3.2.3.5.3" Name="void guardarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="285" UniqueID="659" OutlineLevel="6" WBS="1.3.2.3.5.4" Name="void modificarReservas(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="286" UniqueID="658" OutlineLevel="6" WBS="1.3.2.3.5.5" Name="void eliminarReserva(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="287" UniqueID="657" OutlineLevel="6" WBS="1.3.2.3.5.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="288" UniqueID="656" OutlineLevel="6" WBS="1.3.2.3.5.7" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="289" UniqueID="655" OutlineLevel="6" WBS="1.3.2.3.5.8" Name="ValidacionesExcepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="290" UniqueID="645" OutlineLevel="5" WBS="1.3.2.3.6" Name="Tipo habitacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="291" UniqueID="653" OutlineLevel="6" WBS="1.3.2.3.6.1" Name="Validaciones: Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="292" UniqueID="652" OutlineLevel="6" WBS="1.3.2.3.6.2" Name="void consultarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="293" UniqueID="651" OutlineLevel="6" WBS="1.3.2.3.6.3" Name="void guardarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="294" UniqueID="650" OutlineLevel="6" WBS="1.3.2.3.6.4" Name="void modificarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="295" UniqueID="649" OutlineLevel="6" WBS="1.3.2.3.6.5" Name="void eliminarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="296" UniqueID="648" OutlineLevel="6" WBS="1.3.2.3.6.6" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="297" UniqueID="647" OutlineLevel="6" WBS="1.3.2.3.6.7" Name="void listarTipoHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="298" UniqueID="646" OutlineLevel="6" WBS="1.3.2.3.6.8" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="299" UniqueID="636" OutlineLevel="5" WBS="1.3.2.3.7" Name="Vista Habitacion" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="300" UniqueID="644" OutlineLevel="6" WBS="1.3.2.3.7.1" Name="Validaciones: Excepciones (try/catch)" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="301" UniqueID="643" OutlineLevel="6" WBS="1.3.2.3.7.2" Name="void salir(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="302" UniqueID="642" OutlineLevel="6" WBS="1.3.2.3.7.3" Name="void listarHabitaciones(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="303" UniqueID="641" OutlineLevel="6" WBS="1.3.2.3.7.4" Name="void limpiarFormulario(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="304" UniqueID="640" OutlineLevel="6" WBS="1.3.2.3.7.5" Name="void eliminarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="305" UniqueID="639" OutlineLevel="6" WBS="1.3.2.3.7.6" Name="void modificarHabitacion(){}}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="306" UniqueID="638" OutlineLevel="6" WBS="1.3.2.3.7.7" Name="void guardarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="307" UniqueID="637" OutlineLevel="6" WBS="1.3.2.3.7.8" Name="void consultarHabitacion(){}" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="308" UniqueID="589" OutlineLevel="4" WBS="1.3.2.4" Name="Testing" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="309" UniqueID="696" OutlineLevel="5" WBS="1.3.2.4.1" Name="Integrado" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="310" UniqueID="697" OutlineLevel="6" WBS="1.3.2.4.1.1" Name="Version anterior + version actual" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="311" UniqueID="695" OutlineLevel="5" WBS="1.3.2.4.2" Name="Caja Negra" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="312" UniqueID="700" OutlineLevel="6" WBS="1.3.2.4.2.1" Name="Probar vistas" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="313" UniqueID="699" OutlineLevel="6" WBS="1.3.2.4.2.2" Name="Pruebas de entrada" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="314" UniqueID="698" OutlineLevel="6" WBS="1.3.2.4.2.3" Name="Probar funcionalidad del software" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="315" UniqueID="694" OutlineLevel="5" WBS="1.3.2.4.3" Name="Caja Blanca" Duration="1d" DurationVariance="1d" RemainingDuration="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" Summary="yes" FixedCostAccrual="Prorated"/>
+			<task ID="316" UniqueID="702" OutlineLevel="6" WBS="1.3.2.4.3.1" Name="Verificar logicade codigo" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
+			<task ID="317" UniqueID="701" OutlineLevel="6" WBS="1.3.2.4.3.2" Name="Revisar codigo linea por linea" Duration="1d" DurationVariance="1d" Start="2024-09-09T08:00" Finish="2024-09-09T17:00" EarlyStart="2024-09-09T08:00" EarlyFinish="2024-09-09T17:00" LateStart="2024-09-09T08:00" LateFinish="2024-09-09T17:00" Critical="yes" EffortDriven="yes" FixedCostAccrual="Prorated"/>
 		</tasks>
 	</proj>
 	<printInfo mode="scale" orient="landscape" size="9" length="0" width="0" pagesWide="1" pagesHigh="1" scale="100%" bw="no" enlarge="no" byColumn="no" adjustPageBreaks="no" marginTop="36pt" marginLeft="36pt" marginBottom="36pt" marginRight="36pt"/>
@@ -3463,7 +3442,7 @@
 			<groupspec>
 			</groupspec>
 		</wbs_view>
-		<wbs_view id="WBS Planning View" pagelayout="WBS Chart Page Layout" zoomlevel="80" borderpolicy="outlinelevel" borderfillpolicy="outlinelevel" bordershadowpolicy="outlinelevel" bkcolor="#454863">
+		<wbs_view id="WBS Planning View" pagelayout="WBS Chart Page Layout" zoomlevel="40" borderpolicy="outlinelevel" borderfillpolicy="outlinelevel" bordershadowpolicy="outlinelevel" bkcolor="#454863">
 			<connector>
 				<line id="in" width="1.5pt"/>
 				<line id="out" width="1.5pt"/>
@@ -3538,734 +3517,1185 @@
 	<treediff id="1">
 		<border bkcolor="#A7A9C0"/>
 	</treediff>
+	<treediff id="4">
+		<border bkcolor="#FFB0B0"/>
+	</treediff>
+	<treediff id="7">
+		<border bkcolor="#FFCACA"/>
+	</treediff>
 	<treediff id="8">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="9">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="6">
+		<border bkcolor="#FFCACA"/>
 	</treediff>
 	<treediff id="14">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="13">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="12">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="19">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="11">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="10">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="5">
 		<item before="36pt"/>
+		<border bkcolor="#FFCACA"/>
 	</treediff>
 	<treediff id="18">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="17">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="16">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="15">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="20">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="22">
+		<border bkcolor="#FFC6E2"/>
+	</treediff>
+	<treediff id="27">
+		<border bkcolor="#FFE0A8"/>
+	</treediff>
+	<treediff id="32">
+		<border bkcolor="#FFF0D5"/>
 	</treediff>
 	<treediff id="39">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="38">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="37">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="36">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="31">
+		<border bkcolor="#FFF0D5"/>
 	</treediff>
 	<treediff id="46">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="45">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="44">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="43">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="42">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="41">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="40">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="30">
+		<border bkcolor="#FFF0D5"/>
 	</treediff>
 	<treediff id="53">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="52">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="51">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="50">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="49">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="48">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="47">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="29">
+		<border bkcolor="#FFF0D5"/>
 	</treediff>
 	<treediff id="62">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="61">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="60">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="59">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="58">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="57">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="56">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="28">
+		<border bkcolor="#FFF0D5"/>
 	</treediff>
 	<treediff id="66">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="65">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="64">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="63">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="599">
+		<border bkcolor="#A6D2D2"/>
+	</treediff>
+	<treediff id="26">
+		<border bkcolor="#C7E2E2"/>
+	</treediff>
+	<treediff id="76">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="79">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="87">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="91">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="75">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="83">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="86">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="90">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="74">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="82">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="85">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="89">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="73">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="81">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="84">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="88">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="72">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="80">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="78">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="77">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="25">
+		<border bkcolor="#C7E2E2"/>
+	</treediff>
+	<treediff id="96">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="107">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="102">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="101">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="100">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="99">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="98">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="97">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="95">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="106">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="113">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="112">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="111">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="110">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="109">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="108">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="94">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="105">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="117">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="116">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="115">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="114">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="93">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="104">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="123">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="122">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="121">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="120">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="119">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="118">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="92">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="103">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="126">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="125">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="124">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="24">
 		<item calign="independent" adjust="0.6pt"/>
+		<border bkcolor="#DCB1DA"/>
+	</treediff>
+	<treediff id="601">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="131">
 		<item calign="independent" adjust="1.5pt"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="133">
 		<item before="28.05pt" listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="132">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="604">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="605">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="606">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="600">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="610">
 		<item calign="independent" adjust="1.5pt"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="617">
 		<item calign="branch_nearest" listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="616">
 		<item calign="branch_nearest" listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="611">
 		<item before="28.05pt" listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="612">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="613">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="614">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="129">
+		<border bkcolor="#ECD5EB"/>
+	</treediff>
+	<treediff id="607">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="608">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="609">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="130">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="135">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="134">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="128">
+		<border bkcolor="#ECD5EB"/>
+	</treediff>
+	<treediff id="143">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="144">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="145">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="146">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="147">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="148">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="127">
+		<border bkcolor="#ECD5EB"/>
+	</treediff>
+	<treediff id="149">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="150">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="151">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="152">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="153">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="154">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="23">
+		<border bkcolor="#AFAFD8"/>
+	</treediff>
+	<treediff id="156">
+		<border bkcolor="#D5D5EA"/>
 	</treediff>
 	<treediff id="160">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="155">
+		<border bkcolor="#D5D5EA"/>
 	</treediff>
 	<treediff id="159">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="158">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="157">
 		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="507">
-		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="508">
-		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="2">
 		<border bkcolor="#A7A9C0"/>
 	</treediff>
+	<treediff id="509">
+		<border bkcolor="#FFB0B0"/>
+	</treediff>
+	<treediff id="512">
+		<border bkcolor="#FFCACA"/>
+	</treediff>
 	<treediff id="513">
 		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="514">
-		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="510">
 		<item calign="independent" adjust="1.2pt"/>
+		<border bkcolor="#FFC6E2"/>
+	</treediff>
+	<treediff id="519">
+		<border bkcolor="#FFE0A8"/>
 	</treediff>
 	<treediff id="526">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="527">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="528">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="529">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="530">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="517">
+		<border bkcolor="#A6D2D2"/>
+	</treediff>
+	<treediff id="525">
+		<border bkcolor="#C7E2E2"/>
+	</treediff>
+	<treediff id="524">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="531">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="523">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="532">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="522">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="533">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="521">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="534">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="520">
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="535">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="516">
+		<border bkcolor="#DCB1DA"/>
+	</treediff>
+	<treediff id="541">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="547">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="546">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="545">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="544">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="543">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="542">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="540">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="554">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="553">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="552">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="551">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="550">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="549">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="548">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="539">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="560">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="559">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="558">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="557">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="556">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="538">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="568">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="567">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="566">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="565">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="564">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="563">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="562">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="561">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="537">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="573">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="572">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="571">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="570">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="574">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="575">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="569">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="515">
+		<border bkcolor="#AFAFD8"/>
+	</treediff>
+	<treediff id="576">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="579">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="577">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="580">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="578">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="581">
 		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="584">
-		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="585">
-		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="3">
 		<border bkcolor="#A7A9C0"/>
 	</treediff>
+	<treediff id="588">
+		<border bkcolor="#FFB0B0"/>
+	</treediff>
+	<treediff id="626">
+		<border bkcolor="#FFCACA"/>
+	</treediff>
 	<treediff id="627">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="622">
+		<border bkcolor="#FFCACA"/>
 	</treediff>
 	<treediff id="621">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="620">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="619">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="618">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="624">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="623">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="587">
+		<border bkcolor="#FFC6E2"/>
+	</treediff>
+	<treediff id="592">
+		<border bkcolor="#FFE0A8"/>
 	</treediff>
 	<treediff id="628">
 		<item listmode="stemleft"/>
+		<border bkcolor="#FFF0D5"/>
+	</treediff>
+	<treediff id="591">
+		<border bkcolor="#A6D2D2"/>
+	</treediff>
+	<treediff id="629">
+		<border bkcolor="#C7E2E2"/>
 	</treediff>
 	<treediff id="635">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="634">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="633">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="632">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="631">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="630">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="590">
+		<border bkcolor="#DCB1DA"/>
+	</treediff>
+	<treediff id="682">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="693">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="692">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="691">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="690">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="689">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="681">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="688">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="687">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="686">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="685">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="684">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="683">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="672">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="680">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="679">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="678">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="677">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="676">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="675">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="674">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="673">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="663">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="671">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="670">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="669">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="668">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="667">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="666">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="665">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="664">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="654">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="662">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="661">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="660">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="659">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="658">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="657">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="656">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="655">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="645">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="653">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="652">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="651">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="650">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="649">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="648">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="647">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="646">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="636">
+		<border bkcolor="#ECD5EB"/>
 	</treediff>
 	<treediff id="644">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="643">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="642">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="641">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="640">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="639">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="638">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="637">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="589">
+		<border bkcolor="#C8C8E3"/>
+	</treediff>
+	<treediff id="696">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="697">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="695">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="700">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="699">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="698">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
+	</treediff>
+	<treediff id="694">
+		<border bkcolor="#C8C8E3"/>
 	</treediff>
 	<treediff id="702">
 		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 	<treediff id="701">
 		<item listmode="stemleft"/>
-	</treediff>
-	<treediff id="703">
-		<item listmode="stemleft"/>
+		<border bkcolor="#E1E2EA"/>
 	</treediff>
 </wbs_diff>
 
